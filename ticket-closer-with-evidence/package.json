@@ -1,0 +1,10 @@
+{
+  "name": "ticket-closer-with-evidence",
+  "version": "0.1.0",
+  "description": "Closes an issue/ticket with a single comment bundling description, commit/PR links and an evidence file link, via a pluggable provider adapter",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "ticket-close": "./dist/index.js" },
+  "scripts": { "build": "tsc -p .", "dev": "tsx src/index.ts" },
+  "devDependencies": { "typescript": "^5.6.0", "tsx": "^4.19.0", "@types/node": "^22.0.0" }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Example evidence report",
+  "author": "Jean Santos",
+  "generatedAt": "2026-01-01T00:00:00.000Z",
+  "summary": "This is a fixture document showing the expected JSON shape and the rendered output style.",
+  "sections": [
+    { "title": "Finding 1", "bodyMarkdown": "Describe what was observed.\n\nInclude as many paragraphs as needed." },
+    { "title": "Finding 2", "bodyMarkdown": "A second finding, without a screenshot." }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "html-to-pdf-headless",
+  "version": "0.1.0",
+  "description": "Converts HTML to PDF using a headless Chromium instance, no pandoc or native dependencies required",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "html2pdf": "./dist/index.js" },
+  "scripts": { "build": "tsc -p .", "dev": "tsx src/index.ts" },
+  "dependencies": { "playwright-core": "^1.47.0" },
+  "devDependencies": { "typescript": "^5.6.0", "tsx": "^4.19.0", "@types/node": "^22.0.0" }
+}
